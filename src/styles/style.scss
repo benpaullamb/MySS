@@ -1,0 +1,30 @@
+@use 'app-bar';
+@use 'card';
+@use 'list-item';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+.main {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 960px) {
+    .main {
+        padding: 24px;
+    }
+
+    .page {
+        width: 75%;
+    }
+}

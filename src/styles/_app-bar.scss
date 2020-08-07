@@ -1,0 +1,46 @@
+.app-bar__top {
+    height: 56px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 4px 0 lightgray;
+}
+
+.app-bar__title {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 960px) {
+    .app-bar__title {
+        margin-left: 56px;
+    }
+}
+
+.app-bar__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.app-bar__menu:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.app-bar__links {
+    background: white;
+    box-shadow: 0 0 4px 0 lightgray;
+}
+
+.app-bar__page {
+    height: 48px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.app-bar__page:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

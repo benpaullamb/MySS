@@ -1,0 +1,30 @@
+{
+  "name": "MySS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run web & npm run sass",
+    "web": "webpack",
+    "web-w": "webpack --watch",
+    "sass": "sass src/styles/style.scss public/style.css",
+    "sass-w": "sass --watch src/styles:public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "sass": "^1.26.10",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
