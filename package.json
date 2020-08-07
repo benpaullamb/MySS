@@ -7,8 +7,8 @@
     "build": "npm run web & npm run sass",
     "web": "webpack",
     "web-w": "webpack --watch",
-    "sass": "sass src/styles/style.scss public/style.css",
-    "sass-w": "sass --watch src/styles:public"
+    "sass": "sass src/styles/style.scss docs/style.css",
+    "sass-w": "sass --watch src/styles:docs"
   },
   "keywords": [],
   "author": "",
